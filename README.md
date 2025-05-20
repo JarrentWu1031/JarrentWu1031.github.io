@@ -1,16 +1,22 @@
-## Hi there 👋
+### Hi there! 👋 
+
+- 🎓 I'm currently a Ph.D. student at VLR Group, HUST
+- 🔭 I'm currently working on AIGC, especially in:
+  * 4D Generation
+  * 3D Animation
+  * Motion Synthesis
+- 📫 How to reach me: zjwu1031@gmail.com
+- 🤝 I'm actively seeking a research internship opportunity (preferably in 4D/Video Generation, 3D Animation). If you are interested in my works, please feel free to contact me!
+- 💡 My research intersts focus on developing foundation models for universal content generation
+- 🌟 Check out my latest project: [AnimateAnyMesh](https://animateanymesh.github.io/AnimateAnyMesh/)
 
 <!--
-**JarrentWu1031/JarrentWu1031** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=JarrentWu1031&show_icons=true&theme=radical)
+-->
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!--  
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/JarrentWu1031/count.svg" />
+</p>
 -->
