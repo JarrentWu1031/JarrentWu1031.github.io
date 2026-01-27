@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San Zhang - PhD Student</title>
+    <title>Zijie Wu - PhD Student</title>
     <link rel="stylesheet" href="style.css">
     <!-- 引入 Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
@@ -17,17 +17,17 @@
         <header class="profile-section">
             <div class="profile-img">
                 <!-- 请替换为你的照片，建议正方形 -->
-                <img src="https://via.placeholder.com/200" alt="San Zhang">
+                <img src="./imgs/wzj.jpg" alt="Zijie Wu">
             </div>
             <div class="profile-info">
-                <h1>San Zhang (张三)</h1>
+                <h1>Zijie Wu (Jarrent Wu)</h1>
                 <p class="bio">
-                    Ph.D. Student in Computer Science<br>
-                    <a href="https://www.university.edu" target="_blank">University Name</a>
+                    Ph.D. Student in Computer Vision<br>
+                    <a href="https://english.hust.edu.cn/" target="_blank">Huazhong University of Science and Technology (HUST)</a>
                 </p>
                 <p class="intro">
-                    I am a second-year Ph.D. student supervised by Prof. <a href="#">Advisor Name</a>. 
-                    My research interests include <b>Computer Vision</b>, <b>Generative AI</b>, and <b>3D Reconstruction</b>.
+                    I am a third-year Ph.D. student supervised by Prof. <a href="https://xbai.vlrlab.net/">Xiang Bai</a>. 
+                    My research interests include <b>Image/Video/3D/4D Generation</b>, and <b>Motion Synthesis</b>.
                     I am currently looking for research internships for Summer 2024.
                 </p>
                 
@@ -43,7 +43,7 @@
 
         <hr>
 
-        <!-- ================= 新闻动态 ================= -->
+        <!-- <!-- ================= 新闻动态 ================= -->
         <section class="news-section">
             <h2>🔥 News</h2>
             <ul>
@@ -51,6 +51,50 @@
                 <li><strong>[Oct 2023]</strong> Started internship at Microsoft Research Asia (MSRA).</li>
                 <li><strong>[Jul 2023]</strong> One paper accepted to ICCV 2023 (Oral).</li>
             </ul>
+        </section> -->
+
+        <!-- ================= 工作经历 (新增部分) ================= -->
+        <section class="exp-section">
+            <h2>💼 Experience</h2>
+            
+            <div class="exp-item">
+                <div class="exp-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Tencent_Logo.svg" alt="Tencent">
+                </div>
+                <div class="exp-info">
+                    <h3 class="exp-role">Research Intern (Qingyun Plan)</h3>
+                    <div class="exp-company">
+                        <a href="https://hunyuan.tencent.com/" target="_blank">Tencent Hunyuan</a>
+                        <span class="exp-date">Aug 2025 - Present</span> 
+                    </div>
+                    <div class="exp-desc">
+                        <ul>
+                            <li>Selected for the <b>Tencent Qingyun Plan (腾讯青云计划)</b>, a top-tier talent program.</li>
+                            <li>Focusing on <b>Mesh Animation</b> and Motion Synthesis.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exp-item">
+                <div class="exp-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Alibaba_Group_logo.svg/1200px-Alibaba_Group_logo.svg.png" alt="Alibaba">
+                </div>
+                <div class="exp-info">
+                    <h3 class="exp-role">Research Intern</h3>
+                    <div class="exp-company">
+                        <a href="https://damo.alibaba.com/" target="_blank">Alibaba DAMO Academy (阿里巴巴达摩院)</a>
+                        <span class="exp-date">May 2023 - Jul 2025</span>
+                    </div>
+                    <div class="exp-desc">
+                        <ul>
+                            <li>Conducted research on 2D/3D/4D Generation.</li>
+                            <li>Published 2 papers at <b>ECCV2024</b> and <b>ICCV2025</b> as the first author.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <hr>
@@ -64,19 +108,19 @@
             <div class="pub-item">
                 <div class="pub-img">
                     <!-- 论文缩略图/GIF -->
-                    <img src="https://via.placeholder.com/300x160" alt="Paper Image">
+                    <img src="./imgs/R-DMesh.jpg" alt="Paper Image">
                 </div>
                 <div class="pub-content">
-                    <h3 class="pub-title">Awesome Diffusion: A New Method for Image Generation</h3>
+                    <h3 class="pub-title">R-DMesh: Video-Guided Mesh Animation via Rectified Dynamic Mesh Flow</h3>
                     <div class="pub-authors">
-                        <strong>San Zhang</strong>, Co-author Name, Advisor Name
+                        <strong>Zijie Wu</strong>, Lixin Xu, Puhua Jiang, Sicong Liu, Chunchao Guo, Xiang Bai
                     </div>
                     <div class="pub-venue">
-                        IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2024
-                        <span class="tag">Highlight</span>
+                        ACM Siggraph, 2026 (Under Review)
+                        <!-- <span class="tag">Highlight</span> -->
                     </div>
                     <div class="pub-desc">
-                        We propose a novel diffusion mechanism that accelerates sampling by 10x while maintaining quality.
+                        A novel feed-forward video-guided mesh animation framework that rectifies the initial pose of the input mesh according to the first frame of the guidance video, which enables downstream applications like: pose/motion retargeting, holistic 4D generation.
                     </div>
                     <div class="pub-links">
                         <a href="#">[Paper]</a>
