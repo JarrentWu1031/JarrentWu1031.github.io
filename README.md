@@ -6,7 +6,6 @@
   * 3D Animation
   * Motion Synthesis
 - 📫 How to reach me: zjwu1031@gmail.com
-- 🤝 I'm actively seeking a research internship opportunity (preferably in 4D/Video Generation, 3D Animation). If you are interested in my works, please feel free to contact me!
 - 💡 My research intersts focus on developing foundation models for universal content generation
 - 🌟 Check out my latest project: [AnimateAnyMesh](https://animateanymesh.github.io/AnimateAnyMesh/)
 
